@@ -672,9 +672,9 @@ textarea::placeholder {
   margin-bottom: 16px;
 }
 
-.footer-label {
+/* .footer-label {
   display: flex;
-}
+} */
 
 .footer-email {
   border: 1px solid #ffffff;
