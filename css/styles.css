@@ -472,11 +472,11 @@ img {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .backdrop.is-open { 
+.backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
- } */
+}
 
 .modal {
   position: absolute;
@@ -644,6 +644,17 @@ textarea::placeholder {
   margin-left: auto;
   margin-right: auto;
   margin-top: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  background-color: #404bbf;
+  border: none;
 }
 
 .footer-form-title {
