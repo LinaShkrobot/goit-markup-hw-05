@@ -410,6 +410,7 @@ img {
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
+
 .wrapper-footer-text-icon {
   margin-right: 80px;
 }
@@ -687,8 +688,9 @@ textarea::placeholder {
   color: #fff;
 }
 
-.wrapper-footer-email-button {
+.footer-form {
   display: flex;
+  gap: 24px;
 }
 
 .footer-btn {
