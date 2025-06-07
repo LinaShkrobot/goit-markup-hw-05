@@ -622,7 +622,7 @@ textarea::placeholder {
 }
 
 .modal-field-comment {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .check-element {
@@ -753,4 +753,8 @@ textarea::placeholder {
 .footer-icon-send {
   fill: #fff;
   margin-left: 16px;
+}
+
+.fix {
+  margin-bottom: 24px;
 }
