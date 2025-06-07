@@ -553,6 +553,10 @@ img {
   margin-bottom: 8px;
 }
 
+.modal-checkbox {
+  margin-bottom: 24px;
+}
+
 .modal-item {
   width: 360px;
   border: 1px solid rgba(46, 47, 66, 0.4);
