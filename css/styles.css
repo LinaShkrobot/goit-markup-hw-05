@@ -600,7 +600,7 @@ img {
 
 .modal-input-cover {
   position: relative;
-  margin-bottom: 8px;
+  margin-bottom: 24px;
 }
 
 .modal-textarea {
@@ -619,7 +619,6 @@ textarea::placeholder {
 
 .modal-field {
   margin-bottom: 8px;
-  margin-bottom: 24px;
 }
 
 .modal-field-comment {
