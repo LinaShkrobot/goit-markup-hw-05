@@ -493,7 +493,6 @@ img {
   background-color: #fcfcfc;
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 24px;
 }
 
 .backdrop:not(.is-open) .modal {
@@ -601,7 +600,7 @@ img {
 
 .modal-input-cover {
   position: relative;
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 
 .modal-textarea {
