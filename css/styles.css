@@ -38,23 +38,6 @@ img {
   height: auto;
 }
 
-.blue-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background: #4d5ae5;
-  cursor: pointer;
-  padding: 16px 32px;
-  border-radius: 4px;
-  min-width: 169px;
-  display: block;
-  border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -488,11 +471,11 @@ img {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-open {
+/* .backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-}
+} */
 
 .modal {
   position: absolute;
@@ -657,6 +640,17 @@ textarea::placeholder {
 }
 
 .modal-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  display: block;
+  height: 56px;
+  min-width: 169px;
+  border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 24px;
